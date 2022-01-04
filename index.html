@@ -1,108 +1,90 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="css/flipclock.css" rel="stylesheet" type="text/css" />
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-    <link rel="shortcut icon" href="favicon.ico" />
-  	<title>Beginner Design</title>
-</head>
-<body class="coming-soon-promo-style-3">
-    
-    <!-- LOADER -->
-    <div id="loader-wrapper">
-        <div id="loader-container">
-          <div class="stick"></div>
-          <div class="stick"></div>
-          <div class="stick"></div>
-          <div class="stick"></div>
-          <div class="stick"></div>
-          <div class="stick"></div>
-          <div class="loader-titel">Loading...</div>
-        </div>
-    </div>
-    
-    <div id="content-wrapper">
-        <div class="block coming-soon-style3" id="home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beginner.Design - Noob of Designer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
 
-            <audio autoplay>
-                <source src="mp3/owl.mp3" type="audio/mpeg">
-            </audio>
+  <body>
+      <!-- Website Header -->
+      <header id="header" class="flex space-between">
+          <div class="logo">
+            <a href="#home">&lt;Beginner.Design&#47;&gt;</a>
+          </div>
+          <div class="navigation">
+              <nav class="header-nav">
+                  <ul id="header-links" class="flex">
+                      <li class="nav-link"><a href="#home">Home</a></li>
+                      <li class="nav-link"><a href="#about">About Me</a></li>
+                      <li class="nav-link"><a href="#skills">Skills</a></li>
+                      <li class="nav-link"><a href="#contact">Contact Me</a></li>
+                  </ul>
+              </nav>
+          </div>
+      </header>
 
-            <div class="container">
-                <div class="row col-table">
-                    <div class="col-md-6 col-td cold-left">
-                        <img class="city-1" src="img/city-1.png" alt=""/>
-                        <img class="city-2" src="img/city-2.png" alt=""/>
-                        <span class="window-1"></span>
-                        <span class="window-2"></span>
-                        <article class="margin-top-50 cold-left-top">
-                            <h1 class="h1">Coming soon</h1>
-                            <h2 class="h2">our website in under construction</h2>
-                        </article>
-                        <div class="date margin-top-30">
-                            <div class="clock"></div>
-	                        <div class="message"></div>
-                            <form id="contacts_form" class="margin-top-50">
-                                <input type="text" id="mail" name="email" placeholder="Enter your email" value=""/>
-                                <div class="submit-button"><input type="submit" value="Subscribe"/></div>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-td cold-right">
-                        <div class="tree-wrap">
-                            <img class="moon" src="img/moon.png" alt=""/>
-                            <img class="tree" src="img/tree.png" alt=""/>
-                            <img class="tree-1" src="img/tree-1.png" alt=""/>
-                            <img class="tree-2" src="img/tree-2.png" alt=""/>
-                            <div class="owl-wrap">
-                                <img class="wing" src="img/wing.png" alt=""/>
-                                <img class="wing second" src="img/wing-1.png" alt=""/>
-                                <img class="owl" src="img/owl.png" alt=""/>
-                            </div> 
-                        </div>
-                    </div>
-                </div>
+      <!-- Main Content Area -->
+      <main>
+          <!-- Home Section -->
+          <section id="home" class="flex content-center">
+              <div class="col">
+                <h1>Creating Simple &amp; Elegent Designs</h1>
+                <h3>Inspiring others to feel good</h3>
+                <p class="text-justify">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam molestiae rem repellendus, provident commodi odit, incidunt obcaecati mollitia id hic consequatur vel harum quae? Necessitatibus omnis minima odit, exercitationem, officiis aliquid fugiat sapiente fuga sint eos reiciendis, ratione sit iure.
+                </p>
+                <a href="#about" class="btn">Learn More</a>
             </div>
-            
-            
-            <footer>
-                <div class="container margin-bottom-40">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="footer-linck">
-                                Email: <a href="mailto:ray@beginner.design"><span>ray@beginner.design</span></a>
-                            </div> 
-                        </div>
-                        <div class="col-md-6">
-                            <div class="follow-us">
-                                <div class="titel">
-                                    Follow Us
-                                </div>
-                                <a class="thumbs" href="#"><i class="fa fa-pinterest-p"></i></a>
-                                <a class="thumbs" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="thumbs" href="#"><i class="fa fa-instagram"></i></a>
-                                <a class="thumbs" href="#"><i class="fa fa-google-plus"></i></a>
-                                <a class="thumbs" href="#"><i class="fa fa-facebook"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-        </div>
-    </div>
+            <div class="col flex space-around">
+                <img class="hero" src="assets/img/designer.svg" alt="Designer">
+            </div>
+          </section>
 
-    <script src="js/jquery-2.1.3.min.js"></script>
-    
-    <script src="js/flipclock.min.js"></script>
-    
-    <script src="js/global.js"></script>
-    
-</body>
+          <!-- About Section -->
+          <section id="about">
+              <h2 class="text-center">About Me</h2>
+              <div class="flex content-center">
+                  <div class="col">
+                      <h3 class="text-secondary">Hi, I am Rayhan</h3>
+                      <p class="text-justify">
+                          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus sunt et nihil omnis nostrum optio placeat dicta, saepe atque laudantium veniam nam ab doloribus, ipsam accusamus modi eum pariatur error, voluptatem ea cupiditate facere? Nesciunt assumenda mollitia illum necessitatibus quis!
+                      </p>
+                  </div>
+                  <div class="col flex space-around">
+                    <img class="hero" src="assets/img/rayhan.png" alt="Rayhan Sardar">
+                  </div>
+              </div>
+          </section>
+
+          <!-- Skill Section -->
+          <section id="skills">
+              <h2 class="text-center">My Skills</h2>
+              <p class="text-center">Comming Soon...</p>
+          </section>
+
+          <!-- Contact Form Section -->
+          <section id="Contact">
+              <h2 class="text-center">Contact Me</h2>
+              <p class="text-center">Planning to build a form...</p>
+          </section>
+
+      </main>
+
+      <!-- Website Footer -->
+      <footer>
+          <p class="text-center text-dark">
+              &copy; 2022 &lt;Beginner.Design&#47;&gt
+          </p>
+      </footer>
+      <script src="assets/js/main.js"></script>
+  </body>
 </html>
